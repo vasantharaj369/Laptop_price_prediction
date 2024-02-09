@@ -2,7 +2,6 @@ import numpy as np
 import pandas as pd
 import pickle
 import streamlit as st
-import sklearn
 pipe = pickle.load(open('pipe.pkl', 'rb'))
 df = pickle.load(open('df.pkl', 'rb'))
 st.title('Laptop Price Predictor')
