@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import pickle
 import streamlit as st
-pipe = pickle.load(open('pipe.pkl', 'rb'))
+pipe = pickle.load(open('https://github.com/vasantharaj369/Laptop_price_prediction/blob/main/pipe.pkl', 'rb'))
 df = pickle.load(open('df.pkl', 'rb'))
 st.title('Laptop Price Predictor')
 st.image('laptop_image.jpg', width = 500)
