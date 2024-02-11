@@ -1,6 +1,6 @@
 pandas==2.2.0
 numpy==1.26.3
-pickle==4.0
+pickle
 streamlit==1.30.0
 scikit-learn==1.4.0
 sklearn
